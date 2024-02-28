@@ -13,6 +13,10 @@ public class First_demo {
    WebDriver driver=new ChromeDriver();  
      driver.manage().window().maximize();  
      driver.get("https://www.leafground.com/dashboard.xhtml");
+     
+     driver.close();
+     
+     
 	     
 
 	}
