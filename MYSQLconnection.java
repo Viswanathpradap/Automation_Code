@@ -21,7 +21,7 @@ ResultSet result=statement.executeQuery("SELECT * FROM `employee_details`");
 
 while(result.next()) {
 
-System.out.println(result.getString(1));
+System.out.println(result.getString(1)+ result.getString(2)+result.getString(3)+ result.getString(4));
 
 
 	}
